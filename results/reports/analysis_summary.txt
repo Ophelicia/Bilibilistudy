@@ -1,0 +1,56 @@
+================================================================================
+Bilibili Video Topic Success Key Factor Analysis - Summary
+================================================================================
+
+[Section 1: Dataset Overview]
+  Total videos: 1254
+  Categories: 79
+
+[Section 2: Clustering Results]
+  Optimal K: 2
+  Silhouette Score: 0.5754609748080718
+
+  Cluster 0:
+    Size: 1061 videos (84.61%)
+    Avg Engagement Rate: 6.97%
+    Top Category: Digital Tech
+
+  Cluster 1:
+    Size: 193 videos (15.39%)
+    Avg Engagement Rate: 25.09%
+    Top Category: Cosplay
+
+[Section 3: Significant Factors]
+  Factors significantly affecting success (p < 0.05):
+    - N/A: p=N/A
+    - N/A: p=N/A
+    - N/A: p=N/A
+    - N/A: p=N/A
+    - N/A: p=N/A
+    - N/A: p=N/A
+    - N/A: p=N/A
+    - N/A: p=N/A
+    - N/A: p=N/A
+    - N/A: p=N/A
+
+[Section 4: Regression Analysis]
+  R-squared: 0.046380552528605956
+  Adjusted R-squared: 0.041792167055608176
+  F-statistic: 10.10825110521994
+  Significant coefficients:
+    - Intercept: β=8.4716***
+    - duration: β=0.9757***
+    - dur_Long (10-30min): β=-2.3126*
+    - weekend: β=0.8961*
+
+[Section 5: Machine Learning Results]
+  Best Model: Gradient Boosting
+  Test R²: 0.9221
+  Test RMSE: 1.6251
+  CV R² Mean: 0.8768
+  Top 5 Important Features:
+    - like_rate: 0.4234
+    - favorite_rate: 0.4004
+    - coin_rate: 0.1202
+    - duration: 0.0244
+    - share_rate: 0.0111

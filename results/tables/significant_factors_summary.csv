@@ -1,0 +1,11 @@
+﻿Factor,Type,P-value,Significance,Correlation
+Category,Categorical,0.0,***,
+Duration Type,Categorical,0.0,***,
+Day of Week,Categorical,0.0,***,
+Like Rate,Continuous,0.0,***,0.8003
+Coin Rate,Continuous,0.0,***,0.6329
+Favorite Rate,Continuous,0.0,***,0.7655
+Engagement Rate,Continuous,0.0,***,0.9324
+Completion Proxy,Continuous,0.0,***,0.8803
+Duration,Continuous,0.000666,***,0.096
+Weekend,Categorical,0.028491,*,

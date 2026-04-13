@@ -1,0 +1,40 @@
+================================================================================
+Practical Recommendations Based on Data Analysis
+================================================================================
+
+[Content Strategy by User Group]
+
+  Cluster 0:
+    Engagement: 6.97%, Top Category: Digital Tech
+    Strategy: Light entertainment content, fast-paced, suitable for short videos
+
+  Cluster 1:
+    Engagement: 25.09%, Top Category: Cosplay
+    Strategy: Focus on in-depth content, prioritize quality, suitable for long-form videos
+
+[Optimal Publishing Time]
+  - Choose publishing time based on target audience behavior
+  - Weekday evenings and weekend afternoons generally perform better
+
+[Video Duration Recommendations]
+  - Short (<3min): Quick consumption content, strong opening hook
+  - Medium (3-10min): Tutorials, reviews, explanations
+  - Long (10-30min): Deep analysis, storytelling content
+  - Extra Long (>30min): Requires exceptionally strong content
+
+[Category Selection]
+  - Match category to content precisely
+  - Popular categories are highly competitive; consider niche entry points
+
+[Improving Engagement Rate]
+  - Optimize title and thumbnail for higher click-through rate
+  - Include call-to-action for likes, coins, and favorites
+  - Reply to comments to build community
+  - Set danmaku interaction points at key moments
+
+[Key Success Factors (ML-based)]
+  1. like_rate: importance = 0.4234
+  2. favorite_rate: importance = 0.4004
+  3. coin_rate: importance = 0.1202
+  4. duration: importance = 0.0244
+  5. share_rate: importance = 0.0111

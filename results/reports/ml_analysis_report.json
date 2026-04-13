@@ -1,0 +1,144 @@
+{
+  "model_comparison": [
+    {
+      "model": "Random Forest",
+      "train_r2": 0.9796,
+      "test_r2": 0.9187,
+      "train_rmse": 1.0511,
+      "test_rmse": 1.6593,
+      "train_mae": 0.6055,
+      "test_mae": 1.1632,
+      "cv_r2_mean": 0.8661,
+      "cv_r2_std": 0.0446
+    },
+    {
+      "model": "Gradient Boosting",
+      "train_r2": 0.9948,
+      "test_r2": 0.9221,
+      "train_rmse": 0.5293,
+      "test_rmse": 1.6251,
+      "train_mae": 0.3805,
+      "test_mae": 1.129,
+      "cv_r2_mean": 0.8768,
+      "cv_r2_std": 0.0436
+    },
+    {
+      "model": "XGBoost",
+      "train_r2": 0.9909,
+      "test_r2": 0.9154,
+      "train_rmse": 0.7022,
+      "test_rmse": 1.6928,
+      "train_mae": 0.4753,
+      "test_mae": 1.139,
+      "cv_r2_mean": 0.8701,
+      "cv_r2_std": 0.0345
+    }
+  ],
+  "feature_importance": {
+    "model": "Gradient Boosting",
+    "features": [
+      {
+        "feature": "like_rate",
+        "importance": 0.42340741914235486
+      },
+      {
+        "feature": "favorite_rate",
+        "importance": 0.4003836746221531
+      },
+      {
+        "feature": "coin_rate",
+        "importance": 0.12021709426706031
+      },
+      {
+        "feature": "duration",
+        "importance": 0.024412401575866178
+      },
+      {
+        "feature": "share_rate",
+        "importance": 0.011052529722429148
+      },
+      {
+        "feature": "danmaku_rate",
+        "importance": 0.00549813929863626
+      },
+      {
+        "feature": "reply_rate",
+        "importance": 0.0054364201400798565
+      },
+      {
+        "feature": "pub_hour",
+        "importance": 0.004692875442177699
+      },
+      {
+        "feature": "region_encoded",
+        "importance": 0.0023841904244214784
+      },
+      {
+        "feature": "pub_dayofweek",
+        "importance": 0.0019714287462132894
+      },
+      {
+        "feature": "is_weekend",
+        "importance": 0.000543826618607811
+      },
+      {
+        "feature": "duration_category_encoded",
+        "importance": 0.0
+      }
+    ]
+  },
+  "shap_analysis": {
+    "model": "Gradient Boosting",
+    "sample_size": 251,
+    "features": [
+      {
+        "feature": "favorite_rate",
+        "mean_abs_shap": 2.3421711970407935
+      },
+      {
+        "feature": "like_rate",
+        "mean_abs_shap": 2.229129437198485
+      },
+      {
+        "feature": "coin_rate",
+        "mean_abs_shap": 1.4316990174424342
+      },
+      {
+        "feature": "reply_rate",
+        "mean_abs_shap": 0.38015276019662314
+      },
+      {
+        "feature": "share_rate",
+        "mean_abs_shap": 0.25428293821119924
+      },
+      {
+        "feature": "danmaku_rate",
+        "mean_abs_shap": 0.2278463134612738
+      },
+      {
+        "feature": "pub_dayofweek",
+        "mean_abs_shap": 0.11928237291797515
+      },
+      {
+        "feature": "duration",
+        "mean_abs_shap": 0.1191265777974847
+      },
+      {
+        "feature": "region_encoded",
+        "mean_abs_shap": 0.06971360502699521
+      },
+      {
+        "feature": "pub_hour",
+        "mean_abs_shap": 0.051805888215570875
+      },
+      {
+        "feature": "is_weekend",
+        "mean_abs_shap": 0.015190249009300872
+      },
+      {
+        "feature": "duration_category_encoded",
+        "mean_abs_shap": 0.0
+      }
+    ]
+  }
+}

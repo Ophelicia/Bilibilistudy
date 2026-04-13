@@ -1,0 +1,27 @@
+{
+  "group_statistics": [
+    {
+      "Group": "C0: High Engagement",
+      "Count": 193,
+      "Pct": "15.39%",
+      "Avg_Views": 1258192,
+      "Avg_Like_Rate": "14.65%",
+      "Avg_Coin_Rate": "3.49%",
+      "Avg_Fav_Rate": "5.95%",
+      "Avg_Engagement": "25.09%",
+      "Avg_Success": 20.69
+    },
+    {
+      "Group": "C1: Light Engagement",
+      "Count": 1061,
+      "Pct": "84.61%",
+      "Avg_Views": 2186193,
+      "Avg_Like_Rate": "4.86%",
+      "Avg_Coin_Rate": "0.51%",
+      "Avg_Fav_Rate": "1.35%",
+      "Avg_Engagement": "6.97%",
+      "Avg_Success": 6.36
+    }
+  ],
+  "group_comparisons": []
+}

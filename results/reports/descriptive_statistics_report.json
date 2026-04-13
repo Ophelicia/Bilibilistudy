@@ -1,0 +1,670 @@
+{
+  "data_info": {
+    "total_videos": 1254,
+    "total_columns": 52,
+    "unique_regions": 79,
+    "date_range": {
+      "start": "2018-03-23 17:25:14",
+      "end": "2026-03-01 11:05:00"
+    },
+    "missing_values": {
+      "bvid": 0,
+      "aid": 0,
+      "title": 0,
+      "desc": 254,
+      "duration": 0,
+      "duration_formatted": 0,
+      "pubdate": 0,
+      "pubdate_formatted": 0,
+      "tname": 0,
+      "tid": 0,
+      "view": 0,
+      "danmaku": 0,
+      "reply": 0,
+      "favorite": 0,
+      "coin": 0,
+      "share": 0,
+      "like": 0,
+      "mid": 0,
+      "owner_name": 0,
+      "owner_level": 0,
+      "owner_fans": 0,
+      "owner_vip_type": 0,
+      "owner_official_verify": 0,
+      "data_source": 0,
+      "crawl_time": 0,
+      "engagement_rate": 0,
+      "completion_rate_proxy": 0,
+      "like_rate": 0,
+      "coin_rate": 0,
+      "favorite_rate": 0,
+      "share_rate": 0,
+      "danmaku_rate": 0,
+      "reply_rate": 0,
+      "pubdate_dt": 0,
+      "pub_hour": 0,
+      "pub_dayofweek": 0,
+      "pub_day": 0,
+      "pub_month": 0,
+      "pub_year": 0,
+      "is_weekend": 0,
+      "duration_category": 0,
+      "owner_level_category": 0,
+      "owner_fans_category": 0,
+      "view_normalized": 0,
+      "like_normalized": 0,
+      "coin_normalized": 0,
+      "favorite_normalized": 0,
+      "share_normalized": 0,
+      "danmaku_normalized": 0,
+      "reply_normalized": 0,
+      "popularity_score": 0,
+      "tname_original": 0
+    }
+  },
+  "basic_stats": {
+    "region_distribution": [
+      {
+        "Category": "Digital Tech",
+        "Count": 65,
+        "Percentage(%)": 5.18
+      },
+      {
+        "Category": "Cosplay",
+        "Count": 52,
+        "Percentage(%)": 4.15
+      },
+      {
+        "Category": "Comedy",
+        "Count": 49,
+        "Percentage(%)": 3.91
+      },
+      {
+        "Category": "Film Talk",
+        "Count": 46,
+        "Percentage(%)": 3.67
+      },
+      {
+        "Category": "Mobile Games",
+        "Count": 45,
+        "Percentage(%)": 3.59
+      },
+      {
+        "Category": "Cats",
+        "Count": 42,
+        "Percentage(%)": 3.35
+      },
+      {
+        "Category": "Doujin/Sketch",
+        "Count": 42,
+        "Percentage(%)": 3.35
+      },
+      {
+        "Category": "Parody",
+        "Count": 41,
+        "Percentage(%)": 3.27
+      },
+      {
+        "Category": "History",
+        "Count": 38,
+        "Percentage(%)": 3.03
+      },
+      {
+        "Category": "Entertainment Talk",
+        "Count": 35,
+        "Percentage(%)": 2.79
+      },
+      {
+        "Category": "Daily Life",
+        "Count": 35,
+        "Percentage(%)": 2.79
+      },
+      {
+        "Category": "PC Games",
+        "Count": 35,
+        "Percentage(%)": 2.79
+      },
+      {
+        "Category": "Food Vlog",
+        "Count": 34,
+        "Percentage(%)": 2.71
+      },
+      {
+        "Category": "Cooking",
+        "Count": 32,
+        "Percentage(%)": 2.55
+      },
+      {
+        "Category": "General",
+        "Count": 31,
+        "Percentage(%)": 2.47
+      },
+      {
+        "Category": "美食侦探",
+        "Count": 31,
+        "Percentage(%)": 2.47
+      },
+      {
+        "Category": "Celebrity",
+        "Count": 30,
+        "Percentage(%)": 2.39
+      },
+      {
+        "Category": "小剧场",
+        "Count": 30,
+        "Percentage(%)": 2.39
+      },
+      {
+        "Category": "Dogs",
+        "Count": 29,
+        "Percentage(%)": 2.31
+      },
+      {
+        "Category": "Human VOCALOID",
+        "Count": 26,
+        "Percentage(%)": 2.07
+      },
+      {
+        "Category": "Remix",
+        "Count": 26,
+        "Percentage(%)": 2.07
+      },
+      {
+        "Category": "Music",
+        "Count": 25,
+        "Percentage(%)": 1.99
+      },
+      {
+        "Category": "Science",
+        "Count": 24,
+        "Percentage(%)": 1.91
+      },
+      {
+        "Category": "娱乐粉丝创作",
+        "Count": 20,
+        "Percentage(%)": 1.59
+      },
+      {
+        "Category": "Beauty",
+        "Count": 19,
+        "Percentage(%)": 1.52
+      },
+      {
+        "Category": "Cover Songs",
+        "Count": 19,
+        "Percentage(%)": 1.52
+      },
+      {
+        "Category": "Fashion",
+        "Count": 18,
+        "Percentage(%)": 1.44
+      },
+      {
+        "Category": "Social Science",
+        "Count": 18,
+        "Percentage(%)": 1.44
+      },
+      {
+        "Category": "Esports",
+        "Count": 17,
+        "Percentage(%)": 1.36
+      },
+      {
+        "Category": "Performance",
+        "Count": 16,
+        "Percentage(%)": 1.28
+      },
+      {
+        "Category": "Online Games",
+        "Count": 15,
+        "Percentage(%)": 1.2
+      },
+      {
+        "Category": "Music Review",
+        "Count": 15,
+        "Percentage(%)": 1.2
+      },
+      {
+        "Category": "Anime Talk",
+        "Count": 14,
+        "Percentage(%)": 1.12
+      },
+      {
+        "Category": "MAD/AMV",
+        "Count": 13,
+        "Percentage(%)": 1.04
+      },
+      {
+        "Category": "Film Editing",
+        "Count": 13,
+        "Percentage(%)": 1.04
+      },
+      {
+        "Category": "计算机技术",
+        "Count": 12,
+        "Percentage(%)": 0.96
+      },
+      {
+        "Category": "科工机械",
+        "Count": 11,
+        "Percentage(%)": 0.88
+      },
+      {
+        "Category": "Food Review",
+        "Count": 11,
+        "Percentage(%)": 0.88
+      },
+      {
+        "Category": "Short Films",
+        "Count": 10,
+        "Percentage(%)": 0.8
+      },
+      {
+        "Category": "Live Music",
+        "Count": 9,
+        "Percentage(%)": 0.72
+      },
+      {
+        "Category": "Travel",
+        "Count": 9,
+        "Percentage(%)": 0.72
+      },
+      {
+        "Category": "Tokusatsu",
+        "Count": 9,
+        "Percentage(%)": 0.72
+      },
+      {
+        "Category": "Animal Remix",
+        "Count": 8,
+        "Percentage(%)": 0.64
+      },
+      {
+        "Category": "时尚潮流",
+        "Count": 8,
+        "Percentage(%)": 0.64
+      },
+      {
+        "Category": "Finance",
+        "Count": 8,
+        "Percentage(%)": 0.64
+      },
+      {
+        "Category": "Drawing",
+        "Count": 8,
+        "Percentage(%)": 0.64
+      },
+      {
+        "Category": "Exotic Pets",
+        "Count": 8,
+        "Percentage(%)": 0.64
+      },
+      {
+        "Category": "Variety Show",
+        "Count": 7,
+        "Percentage(%)": 0.56
+      },
+      {
+        "Category": "软件应用",
+        "Count": 7,
+        "Percentage(%)": 0.56
+      },
+      {
+        "Category": "Education",
+        "Count": 7,
+        "Percentage(%)": 0.56
+      },
+      {
+        "Category": "动物综合",
+        "Count": 6,
+        "Percentage(%)": 0.48
+      },
+      {
+        "Category": "Original Music",
+        "Count": 6,
+        "Percentage(%)": 0.48
+      },
+      {
+        "Category": "Wildlife",
+        "Count": 6,
+        "Percentage(%)": 0.48
+      },
+      {
+        "Category": "OTOMAD",
+        "Count": 5,
+        "Percentage(%)": 0.4
+      },
+      {
+        "Category": "Skills",
+        "Count": 5,
+        "Percentage(%)": 0.4
+      },
+      {
+        "Category": "MV",
+        "Count": 5,
+        "Percentage(%)": 0.4
+      },
+      {
+        "Category": "GMV",
+        "Count": 4,
+        "Percentage(%)": 0.32
+      },
+      {
+        "Category": "VOCALOID/UTAU",
+        "Count": 4,
+        "Percentage(%)": 0.32
+      },
+      {
+        "Category": "极客DIY",
+        "Count": 4,
+        "Percentage(%)": 0.32
+      },
+      {
+        "Category": "MMD/3D",
+        "Count": 3,
+        "Percentage(%)": 0.24
+      },
+      {
+        "Category": "Handcraft",
+        "Count": 3,
+        "Percentage(%)": 0.24
+      },
+      {
+        "Category": "Agriculture",
+        "Count": 3,
+        "Percentage(%)": 0.24
+      },
+      {
+        "Category": "Parenting",
+        "Count": 3,
+        "Percentage(%)": 0.24
+      },
+      {
+        "Category": "Toys/Merch",
+        "Count": 3,
+        "Percentage(%)": 0.24
+      },
+      {
+        "Category": "Radio",
+        "Count": 3,
+        "Percentage(%)": 0.24
+      },
+      {
+        "Category": "Trailers/News",
+        "Count": 2,
+        "Percentage(%)": 0.16
+      },
+      {
+        "Category": "Board Games",
+        "Count": 2,
+        "Percentage(%)": 0.16
+      },
+      {
+        "Category": "Design",
+        "Count": 2,
+        "Percentage(%)": 0.16
+      },
+      {
+        "Category": "AI Music",
+        "Count": 2,
+        "Percentage(%)": 0.16
+      },
+      {
+        "Category": "动态漫·广播剧",
+        "Count": 2,
+        "Percentage(%)": 0.16
+      },
+      {
+        "Category": "赛车",
+        "Count": 1,
+        "Percentage(%)": 0.08
+      },
+      {
+        "Category": "EV",
+        "Count": 1,
+        "Percentage(%)": 0.08
+      },
+      {
+        "Category": "国产原创相关",
+        "Count": 1,
+        "Percentage(%)": 0.08
+      },
+      {
+        "Category": "Film General",
+        "Count": 1,
+        "Percentage(%)": 0.08
+      },
+      {
+        "Category": "Looks",
+        "Count": 1,
+        "Percentage(%)": 0.08
+      },
+      {
+        "Category": "Rhythm Games",
+        "Count": 1,
+        "Percentage(%)": 0.08
+      },
+      {
+        "Category": "Music Tutorial",
+        "Count": 1,
+        "Percentage(%)": 0.08
+      },
+      {
+        "Category": "Rural Food",
+        "Count": 1,
+        "Percentage(%)": 0.08
+      },
+      {
+        "Category": "Basketball",
+        "Count": 1,
+        "Percentage(%)": 0.08
+      }
+    ],
+    "duration_distribution": {
+      "Short (<3min)": 639,
+      "Medium (3-10min)": 357,
+      "Long (10-30min)": 179,
+      "Extra Long (>30min)": 79
+    }
+  },
+  "distribution_analysis": {
+    "interaction_stats": [
+      {
+        "Metric": "Views",
+        "Min": "30.16K",
+        "Mean": "2.04M",
+        "Median": "1.10M",
+        "Max": "62.93M",
+        "Std": "3.39M"
+      },
+      {
+        "Metric": "Likes",
+        "Min": "234",
+        "Mean": "92.45K",
+        "Median": "48.84K",
+        "Max": "2.16M",
+        "Std": "142.37K"
+      },
+      {
+        "Metric": "Coins",
+        "Min": "9",
+        "Mean": "18.81K",
+        "Median": "3.33K",
+        "Max": "2.14M",
+        "Std": "91.23K"
+      },
+      {
+        "Metric": "Favorites",
+        "Min": "55",
+        "Mean": "36.62K",
+        "Median": "12.22K",
+        "Max": "1.55M",
+        "Std": "80.87K"
+      },
+      {
+        "Metric": "Shares",
+        "Min": "0",
+        "Mean": "6.09K",
+        "Median": "1.34K",
+        "Max": "770.58K",
+        "Std": "25.91K"
+      },
+      {
+        "Metric": "Danmaku",
+        "Min": "0",
+        "Mean": "4.63K",
+        "Median": "606",
+        "Max": "557.57K",
+        "Std": "28.05K"
+      },
+      {
+        "Metric": "Comments",
+        "Min": "0",
+        "Mean": "2.39K",
+        "Median": "994",
+        "Max": "385.69K",
+        "Std": "12.02K"
+      }
+    ],
+    "interaction_rates": [
+      {
+        "Metric": "Like Rate",
+        "Mean": "6.36%",
+        "Median": "4.78%",
+        "Max": "48.87%"
+      },
+      {
+        "Metric": "Coin Rate",
+        "Mean": "0.97%",
+        "Median": "0.31%",
+        "Max": "28.01%"
+      },
+      {
+        "Metric": "Favorite Rate",
+        "Mean": "2.06%",
+        "Median": "1.06%",
+        "Max": "25.11%"
+      },
+      {
+        "Metric": "Share Rate",
+        "Mean": "0.37%",
+        "Median": "0.15%",
+        "Max": "11.66%"
+      },
+      {
+        "Metric": "Danmaku Rate",
+        "Mean": "0.26%",
+        "Median": "0.06%",
+        "Max": "14.44%"
+      },
+      {
+        "Metric": "Comment Rate",
+        "Mean": "0.19%",
+        "Median": "0.10%",
+        "Max": "9.99%"
+      },
+      {
+        "Metric": "Engagement Rate",
+        "Mean": "9.76%",
+        "Median": "7.28%",
+        "Max": "67.67%"
+      }
+    ],
+    "time_features": {
+      "hour_distribution": {
+        "0": 22,
+        "1": 34,
+        "2": 64,
+        "3": 90,
+        "4": 94,
+        "5": 39,
+        "6": 43,
+        "7": 38,
+        "8": 73,
+        "9": 173,
+        "10": 207,
+        "11": 101,
+        "12": 74,
+        "13": 52,
+        "14": 48,
+        "15": 33,
+        "16": 21,
+        "17": 18,
+        "18": 5,
+        "19": 4,
+        "20": 2,
+        "21": 3,
+        "22": 6,
+        "23": 10
+      },
+      "day_distribution": {
+        "Mon": 320,
+        "Tue": 288,
+        "Wed": 114,
+        "Thu": 39,
+        "Fri": 101,
+        "Sat": 174,
+        "Sun": 218
+      },
+      "weekend_ratio": "31.26%"
+    }
+  },
+  "correlation_analysis": {
+    "high_correlations": [
+      {
+        "feature1": "view",
+        "feature2": "favorite",
+        "correlation": 0.715
+      },
+      {
+        "feature1": "like",
+        "feature2": "coin",
+        "correlation": 0.721
+      },
+      {
+        "feature1": "danmaku",
+        "feature2": "reply",
+        "correlation": 0.726
+      },
+      {
+        "feature1": "like_rate",
+        "feature2": "engagement_rate",
+        "correlation": 0.934
+      },
+      {
+        "feature1": "coin_rate",
+        "feature2": "completion_rate_proxy",
+        "correlation": 0.717
+      },
+      {
+        "feature1": "favorite_rate",
+        "feature2": "engagement_rate",
+        "correlation": 0.717
+      },
+      {
+        "feature1": "favorite_rate",
+        "feature2": "completion_rate_proxy",
+        "correlation": 0.871
+      },
+      {
+        "feature1": "engagement_rate",
+        "feature2": "completion_rate_proxy",
+        "correlation": 0.819
+      }
+    ],
+    "view_correlations": {
+      "favorite": 0.7151680107057389,
+      "like": 0.5640019914633009,
+      "share": 0.5416979539389841,
+      "coin": 0.5184345202244504,
+      "danmaku": 0.37440825174266096,
+      "duration": 0.29639984279369586,
+      "reply": 0.21730375977379024,
+      "coin_rate": -0.016813865772208638,
+      "completion_rate_proxy": -0.051509558140812185,
+      "favorite_rate": -0.05902216557676615,
+      "engagement_rate": -0.15147010872192077,
+      "like_rate": -0.1861654807801828
+    }
+  }
+}

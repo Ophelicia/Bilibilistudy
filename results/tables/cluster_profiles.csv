@@ -1,0 +1,3 @@
+﻿cluster_id,cluster_name,size,percentage,avg_like_rate,avg_coin_rate,avg_favorite_rate,avg_engagement_rate,avg_view,median_view,top_region,avg_duration,peak_hour
+0,Light Engagement,1061,84.61%,4.86%,0.51%,1.35%,6.97%,2186193,1181030,Digital Tech,457,10
+1,High Engagement,193,15.39%,14.65%,3.49%,5.95%,25.09%,1258192,729866,Cosplay,580,9

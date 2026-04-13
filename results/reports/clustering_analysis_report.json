@@ -1,0 +1,59 @@
+{
+  "clustering_config": {
+    "n_samples": 1254,
+    "n_features": 7,
+    "features": [
+      "like_rate",
+      "coin_rate",
+      "favorite_rate",
+      "share_rate",
+      "danmaku_rate",
+      "reply_rate",
+      "completion_rate_proxy"
+    ]
+  },
+  "optimal_k_analysis": {
+    "optimal_k": 2,
+    "silhouette_score": 0.5754609748080718,
+    "ch_score": 467.5190782869272,
+    "db_score": 1.2743170729883848
+  },
+  "cluster_profiles": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "Light Engagement",
+      "size": 1061,
+      "percentage": "84.61%",
+      "avg_like_rate": "4.86%",
+      "avg_coin_rate": "0.51%",
+      "avg_favorite_rate": "1.35%",
+      "avg_engagement_rate": "6.97%",
+      "avg_view": 2186193,
+      "median_view": 1181030,
+      "top_region": "Digital Tech",
+      "avg_duration": 457,
+      "peak_hour": 10
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "High Engagement",
+      "size": 193,
+      "percentage": "15.39%",
+      "avg_like_rate": "14.65%",
+      "avg_coin_rate": "3.49%",
+      "avg_favorite_rate": "5.95%",
+      "avg_engagement_rate": "25.09%",
+      "avg_view": 1258192,
+      "median_view": 729866,
+      "top_region": "Cosplay",
+      "avg_duration": 580,
+      "peak_hour": 9
+    }
+  ],
+  "cluster_statistics": {
+    "cluster_sizes": {
+      "0": 1061,
+      "1": 193
+    }
+  }
+}

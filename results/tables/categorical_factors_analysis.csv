@@ -1,0 +1,6 @@
+﻿Variable,Test,Statistic,P-value,Significance,N_Groups
+Category,Kruskal-Wallis,418.1896,0.0,***,79
+Duration Type,Kruskal-Wallis,48.0509,0.0,***,4
+Publishing Hour,ANOVA,1.2126,0.222979,ns,24
+Day of Week,Kruskal-Wallis,56.4729,0.0,***,7
+Weekend,ANOVA,4.8092,0.028491,*,2

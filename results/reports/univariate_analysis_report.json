@@ -1,0 +1,177 @@
+{
+  "success_index_stats": {
+    "mean": 8.561421004420161,
+    "median": 6.6107547883896824,
+    "std": 7.080078772999472,
+    "min": 0.17043111592102064,
+    "max": 53.4151755163883,
+    "q25": 4.014267308388022,
+    "q75": 10.793120619636966
+  },
+  "categorical_analysis": [
+    {
+      "Variable": "Category",
+      "Test": "Kruskal-Wallis",
+      "Statistic": 418.1896,
+      "P-value": 0.0,
+      "Significance": "***",
+      "N_Groups": 79
+    },
+    {
+      "Variable": "Duration Type",
+      "Test": "Kruskal-Wallis",
+      "Statistic": 48.0509,
+      "P-value": 0.0,
+      "Significance": "***",
+      "N_Groups": 4
+    },
+    {
+      "Variable": "Publishing Hour",
+      "Test": "ANOVA",
+      "Statistic": 1.2126,
+      "P-value": 0.222979,
+      "Significance": "ns",
+      "N_Groups": 24
+    },
+    {
+      "Variable": "Day of Week",
+      "Test": "Kruskal-Wallis",
+      "Statistic": 56.4729,
+      "P-value": 0.0,
+      "Significance": "***",
+      "N_Groups": 7
+    },
+    {
+      "Variable": "Weekend",
+      "Test": "ANOVA",
+      "Statistic": 4.8092,
+      "P-value": 0.028491,
+      "Significance": "*",
+      "N_Groups": 2
+    }
+  ],
+  "continuous_analysis": [
+    {
+      "Variable": "Duration",
+      "Pearson_r": 0.096,
+      "Pearson_p": 0.000666,
+      "Spearman_r": -0.1282,
+      "Spearman_p": 5e-06,
+      "Significance": "***",
+      "Abs_Correlation": 0.096
+    },
+    {
+      "Variable": "Like Rate",
+      "Pearson_r": 0.8003,
+      "Pearson_p": 0.0,
+      "Spearman_r": 0.7392,
+      "Spearman_p": 0.0,
+      "Significance": "***",
+      "Abs_Correlation": 0.8003
+    },
+    {
+      "Variable": "Coin Rate",
+      "Pearson_r": 0.6329,
+      "Pearson_p": 0.0,
+      "Spearman_r": 0.692,
+      "Spearman_p": 0.0,
+      "Significance": "***",
+      "Abs_Correlation": 0.6329
+    },
+    {
+      "Variable": "Favorite Rate",
+      "Pearson_r": 0.7655,
+      "Pearson_p": 0.0,
+      "Spearman_r": 0.8091,
+      "Spearman_p": 0.0,
+      "Significance": "***",
+      "Abs_Correlation": 0.7655
+    },
+    {
+      "Variable": "Engagement Rate",
+      "Pearson_r": 0.9324,
+      "Pearson_p": 0.0,
+      "Spearman_r": 0.8983,
+      "Spearman_p": 0.0,
+      "Significance": "***",
+      "Abs_Correlation": 0.9324
+    },
+    {
+      "Variable": "Completion Proxy",
+      "Pearson_r": 0.8803,
+      "Pearson_p": 0.0,
+      "Spearman_r": 0.8567,
+      "Spearman_p": 0.0,
+      "Significance": "***",
+      "Abs_Correlation": 0.8803
+    }
+  ],
+  "significant_factors": [
+    {
+      "Factor": "Category",
+      "Type": "Categorical",
+      "P-value": 0.0,
+      "Significance": "***"
+    },
+    {
+      "Factor": "Duration Type",
+      "Type": "Categorical",
+      "P-value": 0.0,
+      "Significance": "***"
+    },
+    {
+      "Factor": "Day of Week",
+      "Type": "Categorical",
+      "P-value": 0.0,
+      "Significance": "***"
+    },
+    {
+      "Factor": "Weekend",
+      "Type": "Categorical",
+      "P-value": 0.028491,
+      "Significance": "*"
+    },
+    {
+      "Factor": "Duration",
+      "Type": "Continuous",
+      "P-value": 0.000666,
+      "Correlation": 0.096,
+      "Significance": "***"
+    },
+    {
+      "Factor": "Like Rate",
+      "Type": "Continuous",
+      "P-value": 0.0,
+      "Correlation": 0.8003,
+      "Significance": "***"
+    },
+    {
+      "Factor": "Coin Rate",
+      "Type": "Continuous",
+      "P-value": 0.0,
+      "Correlation": 0.6329,
+      "Significance": "***"
+    },
+    {
+      "Factor": "Favorite Rate",
+      "Type": "Continuous",
+      "P-value": 0.0,
+      "Correlation": 0.7655,
+      "Significance": "***"
+    },
+    {
+      "Factor": "Engagement Rate",
+      "Type": "Continuous",
+      "P-value": 0.0,
+      "Correlation": 0.9324,
+      "Significance": "***"
+    },
+    {
+      "Factor": "Completion Proxy",
+      "Type": "Continuous",
+      "P-value": 0.0,
+      "Correlation": 0.8803,
+      "Significance": "***"
+    }
+  ]
+}

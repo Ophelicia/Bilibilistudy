@@ -1,0 +1,4 @@
+﻿model,train_r2,test_r2,train_rmse,test_rmse,train_mae,test_mae,cv_r2_mean,cv_r2_std
+Random Forest,0.9796,0.9187,1.0511,1.6593,0.6055,1.1632,0.8661,0.0446
+Gradient Boosting,0.9948,0.9221,0.5293,1.6251,0.3805,1.129,0.8768,0.0436
+XGBoost,0.9909,0.9154,0.7022,1.6928,0.4753,1.139,0.8701,0.0345
